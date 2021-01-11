@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 50%;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 12px;
+    outline: none;
+    border-radius: 999px;
+    background-color: #FFFFEA;
+}
+
+
+
+input[type=range]:focus {
+   outline: none;
+}
+
+
+.slider {
+
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 8px solid #568EA6;
+    height: 24px;
+    width: 24px;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
