@@ -1,23 +1,52 @@
 .button02 {
     position: relative;
     display: inline-block;
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(173deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(238,238,238,1) 100%);;
-    box-shadow: 2px 2px 3px gray;
+    background: linear-gradient(0deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 25%, rgba(253,253,253,1) 65%, rgba(231,231,231,1) 100%);
+    box-shadow: 1px 1px 3px gray;
     border-radius: 999px;
-    border: 1px solid #FFFFFF;
-}
-
-.button02 input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-    content: "";
+    border: 10px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
-.button02 input:checked {
-    box-shadow: 0px 0px 3px #8eb5fa
+.power {
+    color: #BFBFBF;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    pointer-events: none;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-transition: color 1s ease;
+    -moz-transition:  1s color ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+    -webkit-transition: text-shadow 1s ease;
+    -moz-transition: text-shadow 1s ease;
+    -o-transition: text-shadow 1s ease;
+    transition: text-shadow 1s ease;
+
 }
 
+
+.on {
+    color: #8eb5fa;
+    -webkit-transition: color 1s ease;
+    -moz-transition:  1s color ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+    -webkit-transition: text-shadow 1s ease;
+    -moz-transition: text-shadow 1s ease;
+    -o-transition: text-shadow 1s ease;
+    transition: text-shadow 1s ease;
+    text-shadow: 1px 1px 3px #8eb5fa;
+    animation: innerpulse .5s;
+}
+
+.on1 {
+    box-shadow: 1px 1px 4px #8eb5fa;
+    animation: innerpulse .5s;
+}

@@ -5,3 +5,10 @@ slider.oninput = function () {
     var color = "linear-gradient(90deg, rgb(142,181,250)" + x + "%, rgb(191,191,191)" + x + "%)";
     slider.style.background = color;
 }
+
+$(".button02").click(function(){
+    $(".power").toggleClass("on");
+    $(".button02").toggleClass("on1");
+
+})
+
