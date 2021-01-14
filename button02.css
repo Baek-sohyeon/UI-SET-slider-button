@@ -1,0 +1,23 @@
+.button02 {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(173deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(238,238,238,1) 100%);;
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 999px;
+    border: 1px solid #FFFFFF;
+}
+
+.button02 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    content: "";
+}
+
+
+.button02 input:checked {
+    box-shadow: 0px 0px 3px #8eb5fa
+}
+

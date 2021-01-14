@@ -1,0 +1,21 @@
+.button01 {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 3px gray;
+    font-weight: bold;
+    font-size: 10pt;
+    /*box-shadow: inset 1px 1px 3px gray, 2px 2px 4px gray;*/
+    outline: none;
+    border-radius: 999px;
+    border: 2px solid #FFFFFF;
+    color: #BFBFBF;
+    text-shadow: 0px 0px 1px #BFBFBF;
+}
+
+.button01:active {
+    color: #8eb5fa;
+    text-shadow: 0px 0px 1px gray, 0px 0px 3px #8eb5fa;
+}
