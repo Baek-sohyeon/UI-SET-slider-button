@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+main {
+    width: 50%;
+}
+
+#slider02 {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 12px;
+    outline: none;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgb(142,181,250) 50% , rgb(191,191,191) 50%);
+    /*background-color: #BFBFBF;*/
+    border: 3px solid #D9D9D9;
+    box-shadow: inset 3px 5px 5px gray;
+}
+
+
+#slider02:focus {
+    outline: none;
+}
+
+
+#slider02::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 5px solid #FFFFFF;
+    height: 24px;
+    width: 24px;
+    border-radius: 19px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    /*box-shadow: 3px 5px 3px gray inset;*/
+    box-shadow: inset 1px 1px 3px gray, 2px 2px 5px gray;
+}
+
+/*input[type=range]::-moz-range-track {*/
+/*    padding: 0 10px;*/
+/*    background: repeating-linear-gradient(to right,*/
+/*    #ccc,*/
+/*    #ccc 10%,*/
+/*    #000 10%,*/
+/*    #000 11%,*/
+/*    #ccc 11%,*/
+/*    #ccc 20%);*/
+/*}*/
+
+input[type=range] + datalist {
+    display: block;
+    margin-top: -4px;
+}
