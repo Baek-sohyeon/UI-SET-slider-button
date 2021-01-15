@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="switch01.css">
     <link rel="stylesheet" href="button01.css">
     <link rel="stylesheet" href="button02.css">
+    <link rel="stylesheet" href="button03.css">
+
 
 </head>
 <body>
     <main>
         <input type="range" min="0" max="100" value="50" id="slider01">
-<!--        <input type="range" min="0" max="100" value="50" step="25" id="slider02" list="ticks">-->
+        <div class="slider02">
+            <input type="range" min="0" max="100" value="50" id="slider02">
+        </div>
+
+        <!--        <input type="range" min="0" max="100" value="50" step="25" id="slider02" list="ticks">-->
         <label class="switch01">
             <input type="checkbox" checked>
             <span class="slider"></span>
@@ -26,21 +32,32 @@
         <div class="button02">
             <i class="material-icons power">power_settings_new</i>
         </div>
-        <div class="button02">
-            <i class="material-icons power">play_arrow</i>
+        <div class="button03">
+            <div class="button03 rewind">
+                <i class="material-icons power">fast_rewind</i>
+            </div>
+            <div class="button03 play">
+                <i class="material-icons power">play_arrow</i>
+            </div>
+            <div class="button03 forward">
+                <i class="material-icons power">fast_forward</i>
+            </div>
         </div>
-        <div class="button02">
-            <i class="material-icons power">stop</i>
-        </div>
-        <div class="button02">
-            <i class="material-icons power">pause</i>
-        </div>
-        <div class="button02">
-            <i class="material-icons power">fast_forward</i>
-        </div>
-        <div class="button02">
-            <i class="material-icons power">fast_rewind</i>
-        </div>
+<!--        <div class="button02">-->
+<!--            <i class="material-icons power">play_arrow</i>-->
+<!--        </div>-->
+<!--        <div class="button02">-->
+<!--            <i class="material-icons power">stop</i>-->
+<!--        </div>-->
+<!--        <div class="button02">-->
+<!--            <i class="material-icons power">pause</i>-->
+<!--        </div>-->
+<!--        <div class="button02">-->
+<!--            <i class="material-icons power">fast_forward</i>-->
+<!--        </div>-->
+<!--        <div class="button02">-->
+<!--            <i class="material-icons power">fast_rewind</i>-->
+<!--        </div>-->
 
 <!--        <button class="button01">BUTTON</button>-->
 <!--        <datalist id="ticks">-->
