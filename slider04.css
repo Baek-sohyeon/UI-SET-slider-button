@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 100px;
+}
+
+main {
+    width: 50%;
+}
+
+.slider04 {
+    transform-origin: left top;
+    transform: rotate(90deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: -70px;
+    position: relative;
+}
+
+#slider04 {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 3px;
+    outline: none;
+    border-radius: 999px;
+    background: #747474;
+    border: 8px solid #f6f8f6;
+    box-shadow: 0px 1px 1px 0px grey;
+    margin: 0;
+}
+
+
+#slider04:focus {
+    outline: none;
+}
+
+
+#slider04::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 3px solid #FFFFFF;
+    height: 22px;
+    width: 28px;
+    border-radius: 999px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    /*box-shadow: 3px 5px 3px gray inset;*/
+    box-shadow: inset 0px 1px 3px gray, -2px 2px 5px gray;
+}
+
+
+input[type=range] + datalist {
+    display: block;
+    margin-top: -4px;
+}
+
+.ticks {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.tick {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 0.5px;
+    background: #BFBFBF;
+    height: 4px;
+}
+
+.tick.strong {
+    width: 1px;
+    height: 12px;
+}
+

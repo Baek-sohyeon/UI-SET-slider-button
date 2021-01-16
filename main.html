@@ -6,68 +6,96 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="slider01.css">
     <link rel="stylesheet" href="slider02.css">
+    <link rel="stylesheet" href="slider03.css">
+    <link rel="stylesheet" href="slider04.css">
     <link rel="stylesheet" href="switch01.css">
+    <link rel="stylesheet" href="switch02.css">
     <link rel="stylesheet" href="button01.css">
     <link rel="stylesheet" href="button02.css">
-    <link rel="stylesheet" href="button03.css">
 
 
 </head>
 <body>
     <main>
-        <input type="range" min="0" max="100" value="50" id="slider01">
-        <div class="slider02">
+        <div style="width: 700px; height: 50%; display: flex; flex-direction: column; align-items: center; z-index: 1">
+            <input type="range" min="0" max="100" value="50" id="slider01">
+
             <input type="range" min="0" max="100" value="50" id="slider02">
-        </div>
 
-        <!--        <input type="range" min="0" max="100" value="50" step="25" id="slider02" list="ticks">-->
-        <label class="switch01">
-            <input type="checkbox" checked>
-            <span class="slider"></span>
-        </label>
-        <label class="switch01">
-            <input type="checkbox" unchecked>
-            <span class="slider"></span>
-        </label>
-        <div class="button02">
-            <i class="material-icons power">power_settings_new</i>
-        </div>
-        <div class="button03">
-            <div class="button03 rewind">
-                <i class="material-icons power">fast_rewind</i>
-            </div>
-            <div class="button03 play">
-                <i class="material-icons power">play_arrow</i>
-            </div>
-            <div class="button03 forward">
-                <i class="material-icons power">fast_forward</i>
-            </div>
-        </div>
-<!--        <div class="button02">-->
-<!--            <i class="material-icons power">play_arrow</i>-->
-<!--        </div>-->
-<!--        <div class="button02">-->
-<!--            <i class="material-icons power">stop</i>-->
-<!--        </div>-->
-<!--        <div class="button02">-->
-<!--            <i class="material-icons power">pause</i>-->
-<!--        </div>-->
-<!--        <div class="button02">-->
-<!--            <i class="material-icons power">fast_forward</i>-->
-<!--        </div>-->
-<!--        <div class="button02">-->
-<!--            <i class="material-icons power">fast_rewind</i>-->
-<!--        </div>-->
+            <div style="margin-bottom: 20px">
+                <label class="switch01">
+                    <input type="checkbox" checked>
+                    <span class="slider"></span>
+                </label>
+                <label class="switch01">
+                    <input type="checkbox" unchecked>
+                    <span class="slider"></span>
+                </label>
 
-<!--        <button class="button01">BUTTON</button>-->
-<!--        <datalist id="ticks">-->
-<!--            <option>0</option>-->
-<!--            <option>25</option>-->
-<!--            <option>50</option>-->
-<!--            <option>75</option>-->
-<!--            <option>100</option>-->
-<!--        </datalist>-->
-
+                <label class="switch02">
+                    <input type="checkbox" checked>
+                    <span class="slider"></span>
+                </label>
+                <label class="switch02">
+                    <input type="checkbox" unchecked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div style="width: 300px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 20px">
+                <div class="button01">
+                    <i class="material-icons power01">power_settings_new</i>
+                </div>
+                <div class="button01">
+                    <i class="material-icons power01">stop</i>
+                </div>
+                <div class="button01">
+                    <i class="material-icons power01">pause</i>
+                </div>
+                <div class="button01">
+                    <i class="material-icons power01"></i>
+                </div>
+            </div>
+            <div id="button02">
+                <div class="button02 rewind">
+                    <i class="material-icons power02">fast_rewind</i>
+                </div>
+                <div class="button02 play">
+                    <i class="material-icons power02">play_arrow</i>
+                </div>
+                <div class="button02 forward">
+                    <i class="material-icons power02">fast_forward</i>
+                </div>
+            </div>
+            <div class="slider03">
+                <input type="range" min="0" max="100" value="50" id="slider03">
+            </div>
+        </div>
+        <div class="slider04">
+            <input type="range" min="0" max="100" value="50" step="5" id="slider04">
+            <div class="ticks">
+                <p class="tick strong"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick strong"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick strong"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick strong"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick strong"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick"></p>
+                <p class="tick strong"></p>
+            </div>
+        </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
