@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CUSTOM-INPUT-RANGE-SLIDER</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slider01.css">
     <link rel="stylesheet" href="slider02.css">
     <link rel="stylesheet" href="slider03.css">
@@ -12,17 +12,16 @@
     <link rel="stylesheet" href="switch02.css">
     <link rel="stylesheet" href="button01.css">
     <link rel="stylesheet" href="button02.css">
-
-
+    <title>CUSTOM-INPUT-RANGE-SLIDER</title>
 </head>
 <body>
     <main>
-        <div style="width: 700px; height: 50%; display: flex; flex-direction: column; align-items: center; z-index: 1">
+        <div class="leftGroup">
             <input type="range" min="0" max="100" value="50" id="slider01">
 
             <input type="range" min="0" max="100" value="50" id="slider02">
 
-            <div style="margin-bottom: 20px">
+            <div class="switchGroup">
                 <label class="switch01">
                     <input type="checkbox" checked>
                     <span class="slider"></span>
@@ -41,7 +40,7 @@
                     <span class="slider"></span>
                 </label>
             </div>
-            <div style="width: 300px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 20px">
+            <div class="btnGroup">
                 <div class="button01">
                     <i class="material-icons power01">power_settings_new</i>
                 </div>
