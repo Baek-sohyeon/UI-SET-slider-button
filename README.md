@@ -7,8 +7,8 @@
 ## ✨Demo
 
 ## 😀developer
-  백소현
+* 백소현
 
 ## 💻References
-https://www.w3schools.com/howto/howto_css_switch.asp  
-https://youtu.be/BrpiNUf2XCk
+* https://www.w3schools.com/howto/howto_css_switch.asp  
+* https://youtu.be/BrpiNUf2XCk
