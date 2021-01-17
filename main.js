@@ -22,22 +22,17 @@ slider3.oninput = function () {
     slider3.style.background = color;
 }
 
-function handleClick(event) {//
-    if ((event.target.classList[1] === "on1") || (event.target.classList[2] === "on1")) {
-        event.target.classList.remove("on1");
+function handleClick(event) {
+    if ((event.target.classList[1] === "on") || (event.target.classList[2] === "on")) {
+        event.target.classList.remove("on");
     }
     else {
-        event.target.classList.add("on1");
+        event.target.classList.add("on");
     }
     console.log(event.target.classList);
 }
 
-// $("button").click(function(){
-//     var button =
-//     $(".power").toggleClass("on");
-//     $(".button02").toggleClass("on1");
-//
-// })
+
 $(function() {
     for (var i = 0 ; i < button01.length ; i++ ) {
         button01[i].addEventListener("click", handleClick);

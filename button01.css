@@ -1,28 +1,29 @@
 .button01 {
     position: relative;
-    display: inline-block;
-    background: linear-gradient(0deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 25%, rgba(253,253,253,1) 65%, rgba(231,231,231,1) 100%);
-    box-shadow: 2px 2px 6px gray;
-    border-radius: 999px;
-    border: 14px solid #FFFFFF;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center;
     width: 120px;
     height: 120px;
     cursor: pointer;
+    color: #BFBFBF;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 25%, rgba(253,253,253,1) 65%, rgba(231,231,231,1) 100%);
+    box-shadow: 2px 2px 6px gray;
+    border: 14px solid #FFFFFF;
+    border-radius: 999px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
 }
 
 
 .power01 {
-    color: #BFBFBF;
     vertical-align: middle;
     text-align: center;
     text-decoration: none;
     pointer-events: none;
     font-size: 45px;
     font-weight: bold;
+    line-height: 90px;
     -webkit-transition: color 1s ease;
     -moz-transition:  1s color ease;
     -o-transition: color 1s ease;
@@ -30,29 +31,13 @@
     -webkit-transition: text-shadow 1s ease;
     -moz-transition: text-shadow 1s ease;
     -o-transition: text-shadow 1s ease;
-    transition: text-shadow 1s ease;
-    line-height: 90px;
-
+    transition: text-shadow 1s ease
 }
 
 
-/*.on {*/
-/*    color: #8eb5fa;*/
-/*    -webkit-transition: color 1s ease;*/
-/*    -moz-transition:  1s color ease;*/
-/*    -o-transition: color 1s ease;*/
-/*    transition: color 1s ease;*/
-/*    -webkit-transition: text-shadow 1s ease;*/
-/*    -moz-transition: text-shadow 1s ease;*/
-/*    -o-transition: text-shadow 1s ease;*/
-/*    transition: text-shadow 1s ease;*/
-/*    animation: innerpulse .5s;*/
-/*}*/
-
-.on1 {
+.on {
     color: #8eb5fa;
     box-shadow: 2px 2px 8px #8eb5fa;
     animation: innerpulse .5s;
-    text-shadow: 2px 2px 6px #8eb5fa;
-
+    text-shadow: 2px 2px 6px #8eb5fa
 }

@@ -17,37 +17,36 @@
     background: #747474;
     border: 17px solid #f6f8f6;
     box-shadow: 0px -1px 2px grey;
-    margin: 0;
+    margin: 0
 }
 
 
 #slider04:focus {
-    outline: none;
+    outline: none
 }
 
 
 #slider04::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: 6px solid #FFFFFF;
-    height: 40px;
     width: 60px;
+    height: 40px;
     border-radius: 999px;
     cursor: pointer;
     background-color: #FFFFFF;
-    /*box-shadow: 3px 5px 3px gray inset;*/
-    box-shadow: inset 0px -2px 6px gray, 3px -3px 6px gray;
+    box-shadow: inset 0px -2px 6px gray, 3px -3px 6px gray
 }
 
 
 input[type=range] + datalist {
     display: block;
-    margin-top: -4px;
+    margin-top: -4px
 }
 
 .ticks {
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 600px
 }
 
 .tick {
@@ -55,12 +54,12 @@ input[type=range] + datalist {
     display: flex;
     justify-content: center;
     width: 1px;
-    background: #BFBFBF;
     height: 8px;
+    background: #BFBFBF
 }
 
 .tick.strong {
     width: 2px;
-    height: 24px;
+    height: 24px
 }
 
